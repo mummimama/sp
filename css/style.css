@@ -45,7 +45,7 @@ header {
 .img {
   font-style: italic;
   text-align: center;
-  margin: 40px 0 0 0;
+  margin: 40px 0 50px 0;
 }
 
 /* line 43, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
@@ -83,7 +83,7 @@ p {
 /* line 72, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .book {
   margin: 10% 10% 10% 10%;
-  max-width: 1140px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
