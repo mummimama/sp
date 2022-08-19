@@ -4,12 +4,7 @@
   box-sizing: border-box;
 }
 
-/* line 3, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
-body,
-h1,
-h2,
-h3,
-h4,
+/* line 9, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 p,
 ul[class],
 ol[class],
@@ -22,7 +17,17 @@ dd {
   margin: 0;
 }
 
-/* line 19, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 20, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* line 28, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 15px;
@@ -31,48 +36,47 @@ body {
   background-color: #fff;
 }
 
-/* line 29, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 35, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .attention {
   text-align: left;
 }
 
-/* line 33, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 39, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 header {
   text-align: center;
 }
 
-/* line 39, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 45, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .img {
   font-style: italic;
   text-align: center;
   margin: 40px 0 50px 0;
 }
 
-/* line 43, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 49, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .img p {
   margin-bottom: 0;
   margin-top: 30px;
 }
 
-/* line 48, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 54, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .head {
   text-align: center;
   margin: 5% 0 2% 0;
 }
 
-/* line 52, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
-p {
-  margin-bottom: 2%;
-  text-indent: 15px;
+/* line 59, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+.center {
+  text-align: center;
 }
 
-/* line 61, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 63, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .quote_from_diffrent_book {
   text-align: right;
   font-style: italic;
 }
 
-/* line 66, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 68, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .quote {
   border: 1px solid black;
   padding: 5px;
@@ -81,83 +85,80 @@ p {
   margin: 5% 0 7% 0;
 }
 
-/* line 74, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 76, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .book {
   margin: 10% 10% 10% 10%;
   max-width: 800px;
   margin: 0 auto;
 }
 
-/* line 83, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 80, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+.book p {
+  text-indent: 2%;
+}
+
+/* line 87, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 table {
   padding: 20px;
   margin: 20px;
-  font-size: 13px;
+  font-size: 15px;
   border-spacing: 1px 15px solid grey;
   vertical-align: middle;
   border: 1px solid black;
+  border-collapse: collapse;
 }
 
-/* line 92, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
-td:first-child {
-  width: 30%;
+/* line 95, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+table td {
+  white-space: normal;
+  word-wrap: break-word;
+  border: 1px solid black;
   padding: 10px;
 }
 
-/* line 96, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
-.borderfortable {
-  border: 1px solid grey;
-  padding: 10px 15px;
-}
-
-/* line 101, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
-td {
-  white-space: normal;
-  word-wrap: break-word;
-}
-
-/* line 106, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
-th {
+/* line 100, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+table th {
   border-bottom: 1px solid grey;
 }
 
-/* line 113, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
-.col {
-  text-align: center;
-}
-
-/* line 117, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 108, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .quotefrombook {
-  background-color: #e6e6e6;
+  background-color: #ece8e8;
+  margin-bottom: 17 px 20px 20px 0;
 }
 
-/* line 121, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 112, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+h1 {
+  font-size: 42px;
+  padding-bottom: 50px;
+}
+
+/* line 115, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 h2 {
   font-size: 30px;
+  padding: 46px 0 42px;
 }
 
-/* line 123, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 118, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 h3 {
   font-size: 22px;
+  padding: 30px 0 27px;
 }
 
-/* line 126, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 122, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 h4 {
   font-size: 19px;
   font-weight: bold;
+  padding: 25px 0 22px;
 }
 
-/* line 130, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 127, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 h5 {
   font-size: 16px;
+  padding: 20px 0 18px;
 }
 
-/* line 133, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
-.col {
-  text-align: left;
-}
-
-/* line 137, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 134, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .link_to_pspo {
   font-size: 20px;
   font-style: bold;
@@ -167,21 +168,26 @@ h5 {
   align-items: center;
 }
 
-/* line 145, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 142, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 a:hover {
   color: blue;
 }
 
 @media (max-width: 1199px) {
-  /* line 149, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+  /* line 146, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
   .book {
     width: 960px;
   }
 }
 
-/* line 152, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+/* line 149, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 footer {
-  margin: 10px 30px 100px 30px;
+  margin: 10px 70px 100px;
+}
+
+/* line 152, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+.link {
+  align-items: left;
 }
 
 /*# sourceMappingURL=style.css.map */
