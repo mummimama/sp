@@ -1,36 +1,42 @@
+@import "resets.scss"
+@import "normalizez.scss"
+    
 * 
     box-sizing: border-box
-body,
-h1,
-h2,
-h3,
-h4,
-h5
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd 
-    margin: 0
 
-h1,
-h2,
-h3,
-h4,
-h5
-    margin-block-start: 0
-    margin-block-end: 0
-
-body 
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
-    font-size: 15px
-    line-height: 1.42857143
+body
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif
+    font-size: 16px
+    line-height: 24px
     color: #333
-    background-color: #fff   
+    background-color: #fff  
+    margin: 0 auto 30px
+
+h1 
+    font-size: 1.5em
+    margin-block-start: 0.83em
+    margin-block-end: 0.83em 
+
+h2 
+    display: block
+    font-size: 1.5em
+    margin-block-start: 0.83em
+    margin-block-end: 0.83em
+    margin-inline-start: 0px
+    margin-inline-end: 0px
+    font-weight: bold
+
+h3 
+    display: block
+    font-size: 1.3em
+    margin-block-start: 0.83em
+    margin-block-end: 0.83em
+    margin-inline-start: 0px
+    margin-inline-end: 0px
+    font-weight: bold
+    line-height: 1.4em
+
+
 
 .attention 
     text-align: left
@@ -38,22 +44,26 @@ body
 
 header 
     text-align: center
-    
-    
+
+p
+    display: block
+    margin-block-start: 1em
+    margin-block-end: 1em
+    margin-inline-start: 0px
+    margin-inline-end: 0px
 
 
 .img 
     font-style: italic
     text-align: center
-    margin: 40px 0 50px 0
+    margin: 10px 0 30px 0
     p
         margin-bottom: 0
-        margin-top: 30px
+        
     
    
 .head 
     text-align: center
-    margin: 5% 0 2% 0
     
 
 .center 
@@ -69,16 +79,18 @@ header
     border: 1px solid black
     padding: 5px
     font-style: italic
-    font-size: 15px
-    margin: 5% 0 7% 0
+    margin: 10px 0 10px 0
+    p
+        margin: 0
+
     
 
 .book 
-    margin: 10% 10% 10% 10%
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 0 10% 
+    max-width: 800px
+    line-height: 22px
     p
-        text-indent: 2%
+        text-indent: none
 
     
     
@@ -107,26 +119,31 @@ table
 
 .quotefrombook 
     background-color: #ece8e8
-    margin-bottom: 17 px 20px 20px 0
-    
-h1
-    font-size: 42px
-    padding-bottom: 50px 
-h2 
-    font-size: 30px
-    padding: 46px 0 42px
+    margin: 5px 0 20px 
+    padding: 0 15px 20px 
+   
+
+
 h3 
+    font-family: Arial, Helvetica, sans-serif
     font-size: 22px
-    padding: 30px 0 27px
+    padding: 30px 0 26px
+    font-weight: bold
+
 
 h4 
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: bold
     font-size: 19px 
     font-weight: bold
-    padding: 25px 0 22px
+    padding: 30px 0 18px
 
 h5 
+    font-family: Arial, Helvetica, sans-serif
     font-size: 16px
-    padding: 20px 0 18px
+    padding: 18px 0 16px
+    font-weight: bold
+
     
 
 
@@ -147,7 +164,20 @@ a:hover
         width: 960px
 
 footer 
-    margin: 10px 70px 100px
+    margin: 10px 70px 200px
+    max-width: 800px
 
 .link
     align-items: left
+
+ol
+    margin-bottom: 20px
+    list-style: decimal
+    li
+        padding: auto
+
+ul
+     margin-bottom: 20px
+     list-style: disc
+
+
