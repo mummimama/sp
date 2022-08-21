@@ -17,6 +17,9 @@ a
     color: #0060a0
     &:hover
         color: #b03000
+
+i
+    font-style: italic
     
 
 h1 
@@ -155,17 +158,44 @@ h5
 
 
 .link_to_pspo 
-    font-size: 20px
+    font-size: 16px
     font-style: bold
     display: flex
     flex-wrap: wrap
     justify-content: space-between
     align-items: center
+    margin: 10px auto 200px
     
 
 @media (max-width: 1199px)
     .book
         width: 960px
+    
+
+@media (max-width: 991px)
+    .book
+        width: 720px
+    .img
+        width: 300px
+
+@media (max-width: 767px)
+    .book
+        width: 540px
+    .img
+        width: 300px
+        &img
+            width: 290px
+            height: auto
+
+@media (max-width: 575px)
+    .book
+        width: 100%
+    .img
+        width: 200px
+        &img
+            width: 290px
+            height: auto
+
 
 footer 
     margin: 10px 70px 200px
@@ -173,6 +203,9 @@ footer
 
 .link
     align-items: left
+    p
+        font-size: 14px
+        margin: 0
 
 ol
     margin-bottom: 20px
