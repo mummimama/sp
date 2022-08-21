@@ -6,11 +6,18 @@
 
 body
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif
-    font-size: 16px
     line-height: 24px
     color: #333
     background-color: #fff  
     margin: 0 auto 30px
+    
+a
+    &:visited
+        color: #70a0b0
+    color: #0060a0
+    &:hover
+        color: #b03000
+    
 
 h1 
     font-size: 1.5em
@@ -36,6 +43,16 @@ h3
     font-weight: bold
     line-height: 1.4em
 
+h4
+    display: block
+    font-size: 1.2em
+    margin-block-start: 1em
+    margin-block-end: 1em
+    margin-inline-start: 0px
+    margin-inline-end: 0px
+    font-weight: bold
+    line-height: 1.4em
+
 
 
 .attention 
@@ -46,11 +63,14 @@ header
     text-align: center
 
 p
+    font-size: 16px
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif
     display: block
     margin-block-start: 1em
     margin-block-end: 1em
     margin-inline-start: 0px
     margin-inline-end: 0px
+    
 
 
 .img 
@@ -82,6 +102,8 @@ p
     margin: 10px 0 10px 0
     p
         margin: 0
+
+            
 
     
 
@@ -120,23 +142,7 @@ table
 .quotefrombook 
     background-color: #ece8e8
     margin: 5px 0 20px 
-    padding: 0 15px 20px 
-   
-
-
-h3 
-    font-family: Arial, Helvetica, sans-serif
-    font-size: 22px
-    padding: 30px 0 26px
-    font-weight: bold
-
-
-h4 
-    font-family: Arial, Helvetica, sans-serif
-    font-weight: bold
-    font-size: 19px 
-    font-weight: bold
-    padding: 30px 0 18px
+    padding: 0 15px 
 
 h5 
     font-family: Arial, Helvetica, sans-serif
@@ -156,8 +162,6 @@ h5
     justify-content: space-between
     align-items: center
     
-a:hover 
-    color: blue 
 
 @media (max-width: 1199px)
     .book
@@ -177,7 +181,9 @@ ol
         padding: auto
 
 ul
-     margin-bottom: 20px
-     list-style: disc
+    margin-bottom: 20px
+    list-style: disc
+    li
+        margin-left: 10px
 
 
