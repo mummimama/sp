@@ -1,16 +1,12 @@
-@import "resets.scss"
 @import "normalizez.scss"
-    
+@import "resets.scss"    
 * 
     box-sizing: border-box
 
 body
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif
     line-height: 24px
-    color: #333
     background-color: #fff  
-    margin: 0 auto 30px
-    
 a
     &:visited
         color: #70a0b0
@@ -20,6 +16,12 @@ a
 
 i
     font-style: italic
+
+.bold
+  font-weight: bold
+
+b
+    font-weight: bold
     
 
 h1 
@@ -186,7 +188,7 @@ h5
         &img
             width: 290px
             height: auto
-
+  
 @media (max-width: 575px)
     .book
         width: 100%
@@ -212,11 +214,17 @@ ol
     list-style: decimal
     li
         padding: auto
+        margin-block-end: 1em
 
 ul
     margin-bottom: 20px
     list-style: disc
     li
         margin-left: 10px
+        margin-block-end: 1em
+        li
+            margin-left: 10px
+            margin-block-end: 1em
+
 
 
