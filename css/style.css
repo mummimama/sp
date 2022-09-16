@@ -120,7 +120,7 @@ p {
 
 /* line 86, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .book {
-  margin: 20px auto;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -248,6 +248,45 @@ ul, ol {
 /* line 179, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
 .quote p {
   margin: 0;
+}
+
+/* line 183, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+.link_to_pspo li a {
+  display: block;
+  background: #ececed;
+  padding: 10px;
+  font-size: 14px;
+  color: #454547;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  max-width: auto;
+  border: 1px solid #c7c8ca;
+}
+
+/* line 195, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+.link_to_pspo ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* line 201, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+.undone {
+  color: #cec5c5;
+}
+
+@media screen and (max-width: 399px) {
+  /* line 206, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+  .link_to_pspo ul {
+    flex-direction: column;
+  }
+  /* line 209, ../../../../../Users/anastasia/скрам-песочница/www.sp/sass/style.sass */
+  .quote img {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

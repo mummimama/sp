@@ -84,7 +84,7 @@ p
     max-width: 850px
 
 .book 
-    margin: 20px auto   
+    margin: 20px  
     display: flex
     flex-direction: column
     justify-content: center
@@ -178,3 +178,34 @@ ul, ol
         max-width: 12vw
     p
         margin: 0
+
+.link_to_pspo
+    li a 
+        display: block
+        background: #ececed
+        padding: 10px 
+        font-size: 14px
+        color:#454547
+        text-decoration: none
+        text-transform: uppercase
+        transition: all 0.3s ease
+        max-width: auto
+        border: 1px solid #c7c8ca;
+   
+    ul
+        list-style: none
+        display: flex
+        justify-content: flex-start
+        flex-direction: row
+        flex-wrap: wrap
+.undone
+    color: #cec5c5
+
+@media screen and (max-width:399px)
+    .link_to_pspo
+        ul
+            flex-direction: column
+    .quote 
+        img
+            display: none
+
