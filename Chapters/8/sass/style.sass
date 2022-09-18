@@ -28,7 +28,7 @@ p
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif
     display: block
     margin: 0 0 10px 0
-    text-indent: 10px
+    text-indent: 0.5em
     line-height: 24px
     
 
@@ -96,7 +96,7 @@ p
         text-indent: none
     
 .chapter, .attention
-    margin: 0 2%
+    margin: 1em
 .attention 
     text-align: left
     background-color: #383a3d1a
@@ -117,18 +117,18 @@ h1
 
 h2 
 
-    font-size: 1.5em
+    font-size: 1.3em
 
 h3 
     
-    font-size: 1.3em
+    font-size: 1.15em
     margin-block-start: 0.83em
     margin-block-end: 0.83em
     line-height: 1.4em
 
 h4
 
-    font-size: 1.2em
+    font-size: 1.09em
     margin-block-start: 1em
     margin-block-end: 1em
     line-height: 1.4em
@@ -139,20 +139,42 @@ table
     max-width: 100%  
     display: flex
     flex-direction: column
-    border: 2px solid grey
+    
     margin: 0
     border-collapse: collapse
-   
+    th
+        display: flex
+        flex-direction: row
+        justify-content: space-around
     tr
-        border: 1px solid grey
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        
+        
     td
         word-wrap: break-word
         margin: 0
-        border: 2px solid grey
-    
-    
+
+
         
-        
+.grid
+    display: grid
+    overflow: scroll
+    grid-gap: 0.5em
+    text-indent: 0
+.grid_4_6
+    
+    grid-template-columns: 1fr 1fr  1fr 1fr 
+    grid-template-rows: 1fr 1fr 1fr 1fr  1fr 1 fr
+.grid_3_5
+    grid-template-columns: 1fr 1fr  1fr 
+    grid-template-rows: 1fr 1fr 1fr 1fr  1fr 
+
+.grid_3_5_opros
+    grid-template-columns: 2fr 1fr 1fr 
+    grid-template-rows: repeat(5,auto)
+    overflow: visible
 
 .quote_from_diffrent_book 
     text-align: right
@@ -170,7 +192,6 @@ table
 ul, ol
     margin-bottom: 1em
     margin-left: 1em
-.nostyle
     li
         list-style-type: none
 
@@ -187,7 +208,7 @@ ul, ol
 .link_to_pspo
     li a 
         display: block
-        background: #ececed
+        background: #ededf2
         padding: 10px 
         font-size: 14px
         color:#454547
@@ -206,6 +227,76 @@ ul, ol
 .undone
     color: #cec5c5
 
+.chupters-annotations
+    background-color: #dde5e7
+    border-radius: 20px
+    margin: 1em
+    padding: 0.5em
+    h3
+        margin: 1em
+
+.chapters-annotations__list
+    display: flex
+    flex-wrap: wrap
+    flex-direction: row
+    justify-content: flex-start 
+    align-items: flex-start
+   
+    
+    
+    .chapters-annotations__list_part
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        margin: 1%
+        flex-grow: 1
+        max-width: 30%
+        h4
+            display: block
+            text-align: center
+            height: auto
+            background-color: #beced2
+            padding: 0.5em
+            border-radius: 10px
+        
+        ul li
+            list-style-type: disc
+            margin: 0 1em
+            padding: 0 1em
+            a
+                margin: 0
+                padding: 0
+.buttons
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-between
+    
+.button
+    width: 30%
+    height: 3em
+    background-color: #369cb6
+    border-radius: 20px
+    color: #d4e4e8
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 1em
+    &__ritgh
+        margin-right: 3em
+        margin-left: auto
+    &__left
+        margin-left: 1em
+        margin-right: auto
+    a
+        color: #d4e4e8
+        text-decoration: none
+    a:hover
+        color: #d4e4e8
+    a:visited
+        color: #d4e4e8
+
 @media screen and (max-width:399px)
     .link_to_pspo
         ul
@@ -213,4 +304,33 @@ ul, ol
     .quote 
         img
             display: none
+    .tab
+        flex-direction: column
+        flex-basis: 90vw
+        max-width: auto
+    .button
+        width: 45vw
+        font-size: 0.8em
+    .chapters-annotations__list
+        flex-direction: column
+        justify-content: space-between
+        .chapters-annotations__list_part
+            padding: 10px 0
+            min-width: 90vw
+        a
+            text-decoration: none
+            padding: 0
+            margin: 0
+            min-width: 90vw
+        a:link 
+            color:  #343c3d
+            text-decoration: none
+        a:visited
+            color: #2c5358
+        a:hover,
+        a:visited:hover 
+            color: #0d4483
+            
+
+
 
