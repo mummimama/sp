@@ -10,31 +10,31 @@
 body {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.45em;
-  background-color: #F9FAFB;
+  background-color: #f9fafb;
 }
 
 /* line 11, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/3/sass/style.sass */
 a:link {
-  color: #5995DA;
+  color: #5995da;
   text-decoration: none;
 }
 
 /* line 15, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/3/sass/style.sass */
 a:visited {
-  color: #407FC7;
+  color: #407fc7;
 }
 
 /* line 18, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/3/sass/style.sass */
 a:hover,
 a:visited:hover {
-  color: #76AEED;
-  border-bottom: 1px solid #76AEED;
+  color: #76aeed;
+  border-bottom: 1px solid #76aeed;
 }
 
 /* line 23, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/3/sass/style.sass */
 a:active,
 a:visited:active {
-  color: #5995DA;
+  color: #5995da;
 }
 
 /* line 26, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/3/sass/style.sass */
@@ -56,8 +56,8 @@ p {
 .main-nav {
   font-size: 14px;
   line-height: 26px;
-  color: #5D6063;
-  background-color: #FFFFFF;
+  color: #5d6063;
+  background-color: #ffffff;
   position: fixed;
   top: 0;
   left: 0;
@@ -127,7 +127,7 @@ p {
   flex-direction: column;
   justify-content: center;
   max-width: 800px;
-  color: #5D6063;
+  color: #5d6063;
 }
 
 /* line 95, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/3/sass/style.sass */
@@ -136,7 +136,8 @@ p {
 }
 
 /* line 98, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/3/sass/style.sass */
-.chapter, .attention {
+.chapter,
+.attention {
   margin: 1em;
 }
 
@@ -150,7 +151,10 @@ p {
 }
 
 /* line 107, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/3/sass/style.sass */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   display: block;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -226,14 +230,14 @@ table td {
 
 /* line 164, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/3/sass/style.sass */
 .grid_4_6 {
-  grid-template-columns: 1fr 1fr  1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr  1fr 1 fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1 fr;
 }
 
 /* line 168, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/3/sass/style.sass */
 .grid_3_5 {
-  grid-template-columns: 1fr 1fr  1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr  1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 /* line 172, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/3/sass/style.sass */

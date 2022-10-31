@@ -104,34 +104,34 @@ p
     margin: 30px 0
     border-radius: 3%
 
-h1, h2,h3,h4
+h1,h2,h3,h4
     display: block
     margin-inline-start: 0px
     margin-inline-end: 0px
     margin-block-start: 0.83em
     margin-block-end: 0.83em 
-
+    line-height: 1.4em
 
 h1
     font-size: 1.5em
-
+    
 h2 
 
     font-size: 1.3em
-
+    
 h3 
     
     font-size: 1.15em
     margin-block-start: 0.83em
     margin-block-end: 0.83em
-    line-height: 1.4em
+    
 
 h4
 
     font-size: 1.09em
     margin-block-start: 1em
     margin-block-end: 1em
-    line-height: 1.4em
+    
 
 table 
     font-size: 16px
@@ -184,19 +184,27 @@ table
 .img 
     display: flex
     flex-direction: column
+    align-items: center
     font-style: italic
     text-align: center 
     margin-bottom: 1em
     img
         max-width: 100%
-        margin-bottom: 1em
-
+        align-items: center
+        width: auto
+    .p__img_align-left 
+        text-align: left 
 ul
     margin-bottom: 1em
     margin-left: 1em
     li
         list-style-type: none
+        padding: 0.5em
+ol
 
+    li
+         line-height: 1.3em
+    
 .quote 
     border: 1px solid black
     padding: 5px
@@ -276,10 +284,10 @@ ul
             font-size: 1.5em
         h4
             color: #41a16c
-            font-size: 1.5em
+            font-size: 1.1em
         ul li
             margin: 0 1em
-            padding: 0 1em
+            padding: 0.5em 1em
             
 .buttons
     display: flex
