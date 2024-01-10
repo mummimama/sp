@@ -1,43 +1,35 @@
-@charset "UTF-8";
-/* line 1, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* line 6, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 body {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.45em;
   background-color: #F9FAFB;
 }
 
-/* line 11, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 a:link {
   color: #5995DA;
   text-decoration: none;
 }
 
-/* line 15, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 a:visited {
   color: #407FC7;
 }
 
-/* line 18, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 a:hover,
 a:visited:hover {
   color: #76AEED;
   border-bottom: 1px solid #76AEED;
 }
 
-/* line 23, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 a:active,
 a:visited:active {
   color: #5995DA;
 }
 
-/* line 26, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 p {
   font-size: 16px;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -47,12 +39,10 @@ p {
   line-height: 24px;
 }
 
-/* line 35, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .head {
   text-align: center;
 }
 
-/* line 37, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .main-nav {
   font-size: 14px;
   line-height: 26px;
@@ -73,30 +63,25 @@ p {
   margin-bottom: 20px;
 }
 
-/* line 57, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .main-nav__branding {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-/* line 61, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .main-nav__logo-link:visited:hover,
 .main-nav__logo-link:hover {
   border-bottom: none;
 }
 
-/* line 65, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .main-nav__logo-link {
   margin-right: 20%;
 }
 
-/* line 67, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .main-nav__logo-link img {
   max-width: 7vw;
 }
 
-/* line 70, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .main-nav__name {
   position: relative;
   top: 1px;
@@ -104,13 +89,11 @@ p {
   text-transform: uppercase;
 }
 
-/* line 76, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .main-nav__html-css {
   position: relative;
   top: 1px;
 }
 
-/* line 80, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .page {
   margin: 40px auto;
   padding: 10px 20px;
@@ -120,9 +103,7 @@ p {
   max-width: 850px;
 }
 
-/* line 88, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .book {
-  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,17 +111,14 @@ p {
   color: #5D6063;
 }
 
-/* line 95, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .book p {
   text-indent: none;
 }
 
-/* line 98, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .chapter, .attention {
   margin: 1em;
 }
 
-/* line 100, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .attention {
   text-align: left;
   background-color: #383a3d1a;
@@ -149,41 +127,40 @@ p {
   border-radius: 3%;
 }
 
-/* line 107, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 h1, h2, h3, h4 {
   display: block;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  margin-block-end: 0.13em;
   line-height: 1.4em;
 }
 
-/* line 115, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 h1 {
   font-size: 1.5em;
 }
 
-/* line 118, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 h2 {
   font-size: 1.3em;
 }
 
-/* line 122, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 h3 {
   font-size: 1.15em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
 }
 
-/* line 129, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 h4 {
   font-size: 1.09em;
   margin-block-start: 1em;
   margin-block-end: 1em;
 }
 
-/* line 136, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
+.underline {
+  border-bottom: 1px solid #141413;
+  display: inline;
+}
+
 table {
   font-size: 16px;
   vertical-align: middle;
@@ -195,27 +172,23 @@ table {
   border-collapse: collapse;
 }
 
-/* line 146, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 table th {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-/* line 150, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 table tr {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-/* line 156, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 table td {
   word-wrap: break-word;
   margin: 0;
 }
 
-/* line 162, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .grid {
   display: grid;
   overflow: scroll;
@@ -223,32 +196,34 @@ table td {
   text-indent: 0;
 }
 
-/* line 167, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .grid_4_6 {
   grid-template-columns: 1fr 1fr  1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr  1fr 1 fr;
 }
 
-/* line 171, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .grid_3_5 {
   grid-template-columns: 1fr 1fr  1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr  1fr;
 }
 
-/* line 175, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
+.grid_2_6 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1 fr;
+}
+
 .grid_3_5_opros {
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: repeat(5, auto);
   overflow: visible;
 }
 
-/* line 180, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .quote_from_diffrent_book {
   text-align: right;
   font-style: italic;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
 }
 
-/* line 184, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .img {
   display: flex;
   flex-direction: column;
@@ -258,36 +233,47 @@ table td {
   margin-bottom: 1em;
 }
 
-/* line 191, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .img img {
   max-width: 100%;
   align-items: center;
   width: auto;
+  margin-bottom: 0.5em;
 }
 
-/* line 195, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .img .p__img_align-left {
   text-align: left;
 }
 
-/* line 197, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 ul {
   margin-bottom: 1em;
   margin-left: 1em;
 }
 
-/* line 200, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 ul li {
   list-style-type: none;
   padding: 0.5em;
 }
 
-/* line 205, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 ol li {
-  line-height: 1.3em;
+  line-height: 1.4em;
+  margin-bottom: 8px;
+  margin-left: 2.5em;
 }
 
-/* line 208, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
+dd, dt {
+  line-height: 1.5em;
+}
+
+dt {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+dd {
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
+}
+
 .quote {
   border: 1px solid black;
   padding: 5px;
@@ -295,24 +281,20 @@ ol li {
   margin: 10px 0 10px 0;
 }
 
-/* line 213, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .quote img {
   max-width: 12vw;
 }
 
-/* line 215, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .quote p {
   margin: 0;
 }
 
-/* line 217, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .quote__from-guide {
   background-color: #dbdde1;
   padding-bottom: 0.5em;
   margin-bottom: 1em;
 }
 
-/* line 223, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .link_to_pspo li a {
   display: block;
   background: #ededf2;
@@ -326,7 +308,6 @@ ol li {
   border: 1px solid #c7c8ca;
 }
 
-/* line 235, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .link_to_pspo ul {
   list-style: none;
   display: flex;
@@ -335,12 +316,10 @@ ol li {
   flex-wrap: wrap;
 }
 
-/* line 241, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .undone {
   color: #cec5c5;
 }
 
-/* line 244, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .chupters-annotations {
   background-color: #dde5e7;
   border-radius: 20px;
@@ -348,12 +327,10 @@ ol li {
   padding: 0.5em;
 }
 
-/* line 249, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .chupters-annotations h3 {
   margin: 1em;
 }
 
-/* line 252, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .chapters-annotations__list {
   display: flex;
   flex-wrap: wrap;
@@ -366,7 +343,6 @@ ol li {
   border-radius: 10px;
 }
 
-/* line 263, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .chapters-annotations__list .chapters-annotations__list_part {
   display: flex;
   flex-direction: column;
@@ -377,43 +353,36 @@ ol li {
   max-width: 30%;
 }
 
-/* line 271, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .chapters-annotations__list .chapters-annotations__list_part li {
   padding-bottom: 1.5em;
 }
 
-/* line 273, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .chapters-annotations__list .chapters-annotations__list_part h4 {
   display: block;
   text-align: center;
 }
 
-/* line 277, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .chapters-annotations__list .chapters-annotations__list_part a {
   margin: 0;
   padding: 0;
   text-decoration: none;
 }
 
-/* line 282, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .chapters-annotations__list .this_page a {
   color: #41a16c;
   font-size: 1.5em;
 }
 
-/* line 285, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .chapters-annotations__list .this_page h4 {
   color: #41a16c;
   font-size: 1.1em;
 }
 
-/* line 288, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .chapters-annotations__list .this_page ul li {
   margin: 0 1em;
   padding: 0.5em 1em;
 }
 
-/* line 292, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .buttons {
   display: flex;
   flex-direction: row;
@@ -421,24 +390,20 @@ ol li {
   justify-content: space-around;
 }
 
-/* line 298, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .next-page {
   word-wrap: break-word;
   flex-basis: 49%;
 }
 
-/* line 301, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .next-page__left {
   margin-left: 0;
 }
 
-/* line 303, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .next-page__rigth {
   margin-right: 0;
   text-align: right;
 }
 
-/* line 306, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .next-page a {
   text-decoration: none;
   margin: 0;
@@ -447,82 +412,135 @@ ol li {
   flex-basis: 49%;
 }
 
-/* line 312, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .next-page .strelka {
   font-size: 1.5em;
   font-style: bold;
   display: block;
 }
 
-/* line 317, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .strong {
   font-size: 1.2em;
   font-weight: bold;
 }
 
-/* line 322, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
 .links ol {
   margin-bottom: 2em;
 }
 
+.grid_tab::first-line {
+  padding-bottom: 150px;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  padding: 1.0625rem 0.5rem 1.0625rem 0.75rem;
+  gap: 0.625rem;
+  background: linear-gradient(180deg, #ecc7b4, #c6e0bd);
+  padding: 2%;
+  margin: 2%;
+}
+
+.banner__text {
+  color: #000;
+  padding: 2%;
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.banner__buttom {
+  display: flex;
+  width: 16.3125rem;
+  height: 5.25rem;
+  padding: 1.875rem 2.5rem;
+  margin: 2%;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 0.4375rem;
+  border: 3px solid #000;
+}
+
+.banner_buttom__text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 2.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.085rem;
+}
+
+.banner_buttom__text a {
+  text-decoration: none;
+  color: #000;
+}
+
 @media screen and (max-width: 800px) {
-  /* line 327, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
   .next-page {
     font-size: 0.8em;
   }
 }
 
 @media screen and (max-width: 399px) {
-  /* line 331, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
   .link_to_pspo ul {
     flex-direction: column;
   }
-  /* line 334, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
   .quote img {
     display: none;
   }
-  /* line 336, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
   .tab {
     flex-direction: column;
     flex-basis: 90vw;
     max-width: auto;
   }
-  /* line 341, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
   .chapters-annotations__list {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
-  /* line 344, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
   .chapters-annotations__list .chapters-annotations__list_part {
     padding: 10px 0;
     min-width: 90vw;
   }
-  /* line 347, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
   .chapters-annotations__list a {
     text-decoration: none;
     padding: 0;
     margin: 0;
     min-width: 90vw;
   }
-  /* line 352, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
   .chapters-annotations__list a:link {
     color: #343c3d;
     text-decoration: none;
   }
-  /* line 355, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
   .chapters-annotations__list a:visited {
     color: #2c5358;
   }
-  /* line 357, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
   .chapters-annotations__list a:hover,
   .chapters-annotations__list a:visited:hover {
     color: #0d4483;
   }
-  /* line 360, ../../../../../Users/anastasia/скрам-песочница/www.sp/Chapters/8/sass/style.sass */
   .button {
     flex-direction: column;
-    justify-content: center;
+  }
+  .banner {
+    justify-items: center;
+    grid-template-columns: 100%;
+  }
+  .banner__text {
+    font-size: 1.2rem;
+  }
+  .banner_buttom__text {
+    font-size: 1.2rem;
+  }
+  .banner__buttom {
+    width: 90%;
+    height: 5vh;
+    align-self: center;
+    padding: 1.875rem 2.5rem;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
